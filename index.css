@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    padding-left: 3%;
+    padding-bottom: 2%;
+    border-bottom: 4mm ridge #222;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+}
+
+.main {
+    margin: auto 20%;
+}
+
+.first {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10% 0;
+}
+
+.first img {
+    width: 384px;
+    height: 216px;
+}
+
+.second img {
+    width: 100%;
+    height: auto;
+}
+
+.member {
+    padding: 1rem;
+}
+
+.footer {
+    text-align: center;
+    background-color: #222;
+    color: white;
+    padding: 10%;
+}
+
+.footer .contact img {
+    width: 30px;
+    height: auto;
+}
+
+#counter {
+    padding: 10% 0;
+}
+
+.item {
+    padding: 4% 0;
+}
+
+.icon {
+    width: 2rem;
+    height: auto;
+    padding: 1rem;
+}
