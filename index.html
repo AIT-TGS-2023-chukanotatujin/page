@@ -8,10 +8,16 @@
     <body></body>
 </html>
 <body>
-    <div class="header"></div>
+    <div class="header">
+        <a href="index.html"><img class="logo_mini" src="img/logo.png" alt="中華の達人ロゴ" /></a>
+        <a href="index.html"><p>中華の達人</p></a>
+        <a href="#team"><p>メンバー</p></a>
+        <a href="#system"><p>システム構成</p></a>
+        <a href="#third"><p>使用素材</p></a>
+    </div>
     <div class="main">
-        <div id="counter" class="first">
-            <img src="img/image.png" alt="中華の達人ロゴ" />
+        <div class="counter" id="first">
+            <img src="img/image.png" alt="中華の達人" />
             <div class="text">
                 <h1>中華の達人</h1>
                 <p>中華の達人は、中華料理を作る音ゲーです</p>
@@ -19,7 +25,7 @@
                 <p>タイミングよく振るって高いスコアを目指せ！</p>
             </div>
         </div>
-        <div id="counter" class="team">
+        <div class="counter" id="team">
             <h1>開発したメンバー</h1>
             <div class="member">
                 <h2>センサー：大屋萌奈 山口海翔 柘植 蒼眞</h2>
@@ -27,9 +33,35 @@
                 <h2>Unity　：宮腰颯太 井上翔人​</h2>
             </div>
         </div>
-        <div id="counter" class="third">
-            <div class="item">
-                <h1>お借りした素材</h1>
+        <div id="system">
+            <h1>システム構成</h1>
+            <div class="conn">
+                <h3>実行環境</h3>
+                <p>- Unity(2021.3.23f1)</p>
+                <h3>使用機器</h3>
+                <p>- M5StickC-Plus, micro:bit</p>
+                <h3>制作環境</h3>
+                <p>- Unity, illustrator, AfterEffect, Arduino, MakeCode, VSCode</p>
+                <h3>使用素材</h3>
+
+                <a href="#music"
+                    ><h4>音源</h4>
+                    <p>Wuxia2 / 中華風の勇壮なオーケストラ曲</p></a
+                >
+
+                <a href="#movie"
+                    ><h4>映像</h4>
+                    <p>中華一番 - 町中華の最高傑作チャーハン！</p></a
+                >
+                <h3>インターフェース​</h3>
+                <p>中華鍋 M5stickC-Plus(加速度、bluetoothシリアル通信)</p>
+                <p>おたま M5stickC-Plus(加速度、bluetoothシリアル通信)</p>
+                <p>調味料 micro:bit(ボタン、有線シリアル通信)</p>
+            </div>
+        </div>
+        <div class="counter" id="third">
+            <h1>使用素材</h1>
+            <div class="item" id="music">
                 <h3>音楽　PeriTune - Wuxia2 / 中華風の勇壮なオーケストラ曲</h3>
                 <iframe
                     width="100%"
@@ -41,7 +73,7 @@
                     allowfullscreen
                 ></iframe>
             </div>
-            <div class="item">
+            <div class="item" id="movie">
                 <h3>動画　中華一番 - 町中華の最高傑作チャーハン！</h3>
                 <iframe
                     width="100%"

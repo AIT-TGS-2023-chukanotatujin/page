@@ -19,6 +19,32 @@ h1 {
     border-bottom: 4mm ridge #222;
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color: #222;
+    padding: 1% 30%;
+    position: fixed;
+    width: 40%;
+}
+
+.header a {
+    display: flex;
+}
+
+.header p {
+    margin: 0.5rem;
+    color: white;
+    width: fit-content;
+}
+
+.logo_mini {
+    width: 50px;
+    height: 50px;
+    padding: 1%;
+}
+
 .logo {
     width: 200px;
     height: 200px;
@@ -28,18 +54,18 @@ h1 {
     margin: auto 20%;
 }
 
-.first {
+#first {
     display: flex;
     justify-content: space-evenly;
-    padding: 10% 0;
+    padding: 25% 0 10% 0;
 }
 
-.first img {
+#first img {
     width: 384px;
     height: 216px;
 }
 
-.second img {
+#second img {
     width: 100%;
     height: auto;
 }
@@ -60,7 +86,7 @@ h1 {
     height: auto;
 }
 
-#counter {
+.counter {
     padding: 10% 0;
 }
 
@@ -72,4 +98,8 @@ h1 {
     width: 2rem;
     height: auto;
     padding: 1rem;
+}
+
+.conn {
+    padding-left: 2%;
 }
