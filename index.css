@@ -74,6 +74,10 @@ h1 {
     padding: 1rem;
 }
 
+#third .item .contact p {
+    font-size: 0.8rem;
+}
+
 .footer {
     text-align: center;
     background-color: #222;
@@ -102,4 +106,125 @@ h1 {
 
 .conn {
     padding-left: 2%;
+}
+
+/* smartphone */
+
+@media screen and (min-width: 600px) {
+    /* .header {
+        display: block;
+        padding: 2% 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .header a {
+        display: inline-block;
+        width: fit-content;
+    }
+
+    .header p {
+        font-size: 2rem;
+        margin: 0;
+        padding: 0 10%;
+        width: fit-content;
+    } */
+
+    .header {
+        display: none;
+    }
+
+    .header-smart {
+        display: flex;
+        /* justify-content: space-between; */
+        /* align-content: center; */
+        background-color: #222;
+        padding: 1% 30%;
+        position: fixed;
+        width: 40%;
+        opacity: 0.85;
+    }
+
+    .header-smart a {
+        display: flex;
+    }
+
+    .header-icon {
+        display: inline-block;
+        width: 20%;
+    }
+
+    .header-smart p {
+        color: white;
+        padding: 0.5rem 2rem;
+        font-size: 3rem;
+    }
+
+    .logo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .main {
+        margin: auto 5%;
+        padding-top: 10%;
+    }
+
+    #first {
+        display: block;
+        padding: 5% 0;
+    }
+
+    #first img {
+        width: 100%;
+        height: auto;
+    }
+
+    #second img {
+        width: 100%;
+        height: auto;
+    }
+
+    .member {
+        padding: 1rem 0;
+    }
+
+    #third .item .contact p {
+        font-size: 0.6rem;
+    }
+
+    .footer {
+        padding: 10% 0;
+    }
+
+    .footer .contact img {
+        width: 20px;
+        height: auto;
+    }
+
+    .counter {
+        padding: 10% 0;
+    }
+
+    .item {
+        padding: 4% 0;
+    }
+
+    .icon {
+        width: 4rem;
+        height: auto;
+        padding: 2rem;
+    }
+
+    .conn {
+        padding-left: 2%;
+    }
+
+    .contact a {
+        text-align: center;
+    }
+
+    .contact p {
+        font-size: 3rem;
+    }
 }
