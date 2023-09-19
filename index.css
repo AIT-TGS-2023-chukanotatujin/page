@@ -39,6 +39,10 @@ h1 {
     width: fit-content;
 }
 
+.header-smart {
+    display: none;
+}
+
 .logo_mini {
     width: 50px;
     height: 50px;
@@ -111,6 +115,19 @@ h1 {
 /* smartphone */
 
 @media screen and (min-width: 600px) {
+    p {
+        margin: 0;
+        font-size: 2rem;
+    }
+
+    h1 {
+        padding-left: 3%;
+        padding-bottom: 2%;
+        border-bottom: 4mm ridge #222;
+        font-size: 3rem;
+        margin: 0;
+    }
+
     /* .header {
         display: block;
         padding: 2% 0;
@@ -172,12 +189,16 @@ h1 {
 
     #first {
         display: block;
-        padding: 5% 0;
+        padding: 2rem 0;
     }
 
     #first img {
         width: 100%;
         height: auto;
+    }
+
+    #team {
+        padding: 2rem 0;
     }
 
     #second img {
@@ -187,6 +208,10 @@ h1 {
 
     .member {
         padding: 1rem 0;
+    }
+
+    #third {
+        padding: 4rem 0;
     }
 
     #third .item .contact p {
