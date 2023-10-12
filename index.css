@@ -66,6 +66,10 @@ h1 {
     padding: 25% 0 10% 0;
 }
 
+.text {
+    margin-left: 2rem;
+}
+
 #first img {
     width: 384px;
     height: 216px;
@@ -74,6 +78,11 @@ h1 {
 #second img {
     width: 100%;
     height: auto;
+}
+
+.iframe_warp iframe {
+    width: 100%;
+    height: 15rem;
 }
 
 .member {
@@ -100,14 +109,37 @@ h1 {
     padding: 10% 0;
 }
 
+.item_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    font-size: 1.5rem;
+}
+
 .item {
     padding: 4% 0;
 }
 
+.music {
+    margin: 2rem 0;
+}
+
+.music p {
+    font-size:1.5rem;
+}
+
+.movie {
+    margin: 2rem 0;
+}
+
+.movie p {
+    font-size: 1.5rem;
+}
+
 .icon {
-    width: 2rem;
+    width: 1.5rem;
     height: auto;
-    padding: 1rem;
+    transform: translateY(0.2rem);
 }
 
 .conn {
@@ -131,6 +163,11 @@ h1 {
         border-bottom: 4mm ridge #222;
         /* font-size: 3rem; */
         margin: 0;
+    }
+
+    h2 {
+        margin: 0;
+        font-size: 1.2rem;
     }
 
     .header {
@@ -179,14 +216,18 @@ h1 {
         padding-top: 10%;
     }
 
-    .main .counter .text p  {
+    .main .counter .text p {
         padding-top: 0.5rem;
-        padding-left:0.5rem;
+        padding-left: 0.5rem;
     }
 
     #first {
         display: block;
         padding-top: 5rem;
+    }
+
+    .text {
+        margin: 0;
     }
 
     #first img {
@@ -209,6 +250,11 @@ h1 {
 
     #third {
         padding: 4rem 0;
+    }
+
+    .iframe_warp iframe {
+        width: 100%;
+        height: 170;
     }
 
     .contact img {
@@ -234,14 +280,17 @@ h1 {
         padding: 10% 0;
     }
 
+    .item_grid {
+        display: block;
+    }
+
     .item {
         padding: 4% 0;
     }
 
     .icon {
-        width: 4rem;
+        width: 1.5rem;
         height: auto;
-        padding: 2rem;
     }
 
     .conn {
